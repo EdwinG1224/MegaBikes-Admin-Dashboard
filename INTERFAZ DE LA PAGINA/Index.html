@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaBikes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabezal">
+        <div class="logo">
+            <img src="images/Logo 2.png" alt="Logo de MegaBikes">
+            <div class="titulo">
+                <h1>MegaBikes</h1>
+            </div>
+        </header>
+
+    <div class="barra-superior">
+        <div class="iconos">
+            <ion-icon name="person-outline"></ion-icon>
+            <ion-icon name="notifications-circle-outline"></ion-icon>
+        </div>
+    </div>
+
+    <div class="barra-lateral">
+        <div class="usuario-logueado">
+            <div class="imagen-usuario">
+                <img src="images/Iguana.png" alt="Foto del Usuario">
+            </div>
+            <span>Juan Cebolla</span>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#" id="motos">Inv. Motos</a></li>
+                <li><a href="#" id="accesorios">Accesorios</a></li>
+                <li><a href="#" id="repuestos">Repuestos</a></li>
+                <li><a href="#" id="clientes">Clientes</a></li>
+            </ul>
+        </nav>
+        <div class="configuracion">
+            <div class="item">
+                <a href="#">Configuración</a>
+                <div class="icono">
+                    <ion-icon name="settings-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="item">
+                <a href="#">Cerrar Sesión</a>
+                <div class="icono">
+                    <ion-icon name="log-out-outline"></ion-icon>
+                </div>
+            </div>
+        </div>            
+    </div>
+    <div class="contenedor-principal">
+        <div class="contenedor grande" id="Moto">
+            <div class="Moto1">Motos</div>
+        </div>
+        <div class="fila">
+            <div class="contenedor pequeño" id="Accesorio">
+                <div class="Accesorio1">Accesorios</div>
+            </div>
+            <div class="contenedor pequeño" id="Repuesto">
+                <div class="Repuesto1">Repuestos</div>
+            </div>
+        </div>
+        <div class="contenedor grande" id="Ventas">
+            <div class="Venta1">Historial de ventas</div>
+        </div>
+    </div>
+    
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p> MegaBikes. Tus sueños si son posibles.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
